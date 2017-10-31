@@ -1,0 +1,28 @@
+{
+  "name": "hyperapp-pagination",
+  "version": "1.0.0",
+  "description": "pagination",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongmomanu/hyperapp-pagination.git"
+  },
+  "keywords": [
+    "hyperapp.js",
+    "pagination"
+  ],
+  "peerDependencies": {
+    "hyperapp": "^0.12.0",
+    "picostyle": "0.1.5"
+  },
+  "author": "hongmomanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongmomanu/hyperapp-pagination/issues"
+  },
+  "homepage": "https://github.com/hongmomanu/hyperapp-pagination#readme"
+}
