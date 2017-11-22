@@ -1,0 +1,58 @@
+.page-item{
+
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    font-family: Arial;
+    color: gray;
+    background-color:  white;
+    margin-right: 5px;
+
+}
+.page-item:hover{
+    color: #2db7f5;
+    border-color: #2db7f5
+}
+
+.page-prev{
+    margin-right: 5px;
+}
+.page-prev::after{
+    content: '\2039';
+    display: block
+}
+.page-next{
+
+}
+.page-next::after {
+    content: '\203A'
+}
+.page-more{
+    border: 0px;
+}
+.page-more::after{
+    content: '\2022\2022\2022'
+}
+.flex-item {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.main-default-class{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.page-actived{
+    background-color: #2db7f5;
+}
+.page-nav-disabled{
+    pointer-events: none;
+}

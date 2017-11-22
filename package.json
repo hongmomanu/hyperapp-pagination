@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pagination",
   "main": "src/index.js",
   "scripts": {
@@ -16,8 +16,7 @@
     "pagination"
   ],
   "peerDependencies": {
-    "hyperapp": "^0.12.0",
-    "picostyle": "0.1.5"
+    "hyperapp": "^0.16.0"
   },
   "author": "hongmomanu",
   "license": "ISC",
